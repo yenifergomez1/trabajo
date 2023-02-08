@@ -1,0 +1,58 @@
+body{
+    background: rgb(255, 255, 255);
+}
+
+.title {
+    margin-bottom: 20px;
+    position: center;
+    font-size: 40px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: rgb(187, 0, 0);
+}
+
+
+.box-container2{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    flex-wrap: wrap;
+}
+
+.box-container2 .box {
+    width: 250px;
+    padding-bottom: 20px;
+    text-align: center;
+    background: #00a1e0;
+    margin: 20px 20px;
+}
+
+.box-container2 .box img {
+    height: 70px;
+    width: 70px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-top: -50px;
+    border: 6px solid #308fe9;
+}
+
+.box-container2 .box h3 {
+    font-size: 30px;
+    color: #ffffff;
+    padding-top: 10px;
+}
+
+.box-container2 .box p {
+
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    padding: 0;
+}
+
+.box-container2 .box .stars i {
+    font-size: 15px;
+    color: #ff0000;
+}
+
+
+

@@ -1,0 +1,114 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    background: url(/IMG/azul.jpg);
+    background-size: cover;
+    font-family: sans-serif;
+    height: 100vh;
+  }
+  
+  .form-register {
+    width: 550px;
+    float: right; 
+    padding: 10px;
+    left: 10px; 
+    margin: 50px;
+    margin-top: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(0, 0, 0);
+ 
+  }
+  .img{
+    width: 605px;
+    height: 800px;
+    float: left; 
+    padding: 25px;
+    left: 5px; 
+    margin: 10px;
+    border-radius: 15px;
+   
+
+
+  }
+  .form-register h2 {
+
+    background-color: #f8fbff;
+    position: center;
+    width: 600px;
+    text-align: center; 
+   font-family: Comic Sans MS; 
+   font-weight:bold; 
+    font-size: 60px; 
+    color: #1ac0f3; 
+    border-radius: 10px;
+    text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
+}
+  
+
+
+  .form-register h1 {
+    font-size: 45px;
+    margin-bottom: 30px;
+  }
+  
+  .controls {
+    width: 100%;
+    background: #f8fbff;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: transparent;
+    font-family: 'calibri';
+    font-size: 18px;
+    color: rgb(3, 3, 3);
+  }
+  
+  .form-register p {
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 40px;
+  }
+  
+  .form-register a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .form-register a:hover {
+    color: rgb(118, 200, 206);
+    text-decoration: underline;
+  }
+  
+  .form-register .botons {
+    width: 100%;
+    background: #005c86;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+  }
+  .form-register input[type="submit"]{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #1097b9;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 20px;
+  }
+  
+  .form-register input[type="submit"]:hover{
+    cursor: pointer;
+    background: #0640e0;
+    color: #000;
+  }
+  .login-box h3{
+    padding: 10px;
+    text-align: absolute;
+    font-size: 50px;
+
+
+  }

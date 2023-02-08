@@ -1,0 +1,45 @@
+body {
+  
+    background-color: rgb(6, 165, 228);
+   
+  }
+  .menu-box {
+    background: hsl(0, 0%, 100%);
+    width: 310px;
+    height: 380px;
+      top: 50%;
+      left: 50%;
+      position: absolute;
+      transform: translate(-50%, -50%);
+     border-radius: 59px;
+      padding: 70px 30px;
+   }
+    
+  .menu-box .avatar {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+  }
+  .menu-box a {
+    
+    border: 1px solid #8f99a8;
+    height: 50px; /*anchura, estilo y color borde*/
+   padding: 10px; /*espacio alrededor texto*/
+   background-color: #a19494d5; /*color botón*/
+   color: #000000; /*color texto*/
+   text-decoration: none; /*decoración texto*/
+   text-align: center;
+   font-family: 'Helvetica', sans-serif; /*tipografía texto*/
+   border-radius: 30px; /*bordes redondos*/
+   padding-left:150px;
+  
+  }
+
+  .menu-box a:hover {
+    color: rgb(253, 2, 2);
+    background: #0640e0;
+    color: #000;
+  }

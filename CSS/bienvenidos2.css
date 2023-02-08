@@ -1,0 +1,49 @@
+body {
+  
+    background-color: rgb(113, 205, 241);
+   
+  }
+  .bienvenidos2-box {
+    background: hsl(0, 0%, 100%);
+    width: 250px;
+    height: 200px;
+      top: 50%;
+      left: 50%;
+      position: absolute;
+      transform: translate(-50%, -50%);
+     border-radius: 59px;
+      padding: 70px 30px;
+   }
+    
+  .bienvenidos2-box .avatar {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+  }
+  .bienvenidos2-box a {
+    
+    border: 1px solid #8f99a8;
+    position: center;
+    top: 150px;
+    left: 200px;
+    width: 50px;
+    height: 100px; /*anchura, estilo y color borde*/
+   padding: 10px; /*espacio alrededor texto*/
+   background-color: #a19494d5; /*color botón*/
+   color: #000000; /*color texto*/
+   text-decoration: none; /*decoración texto*/
+   
+   font-family: 'Helvetica', sans-serif; /*tipografía texto*/
+   border-radius: 30px; /*bordes redondos*/
+  
+  
+  }
+
+  .bienvenidos2-box a:hover {
+    color: rgb(253, 2, 2);
+    background: #0640e0;
+    color: #000;
+  }

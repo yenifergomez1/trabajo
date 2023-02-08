@@ -1,0 +1,128 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: p;
+    background: url(/IMG/mapa.png);
+    background-size: cover;
+    font-family: sans-serif;
+    height: 100vh;
+  }
+  
+
+
+  .login-box {
+    margin: 1cm;
+    border-radius: 50px;
+    width: 320px;
+    height: 490px;
+    background: rgb(253, 254, 255);
+    color: rgb(0, 0, 0);
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+
+  }
+  .controls {
+    width: 100%;
+    background:#dbe8f0c5;
+    padding: 5px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #f9fdff;
+    font-family: 'calibri';
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+  }
+  
+  .login-box .avatar {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+  }
+ 
+  
+  .login-box h1 {
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+  }
+  
+  .login-box label {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    display: block;
+  }
+  
+  .login-box input {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .login-box input   [type="text"],.login-box input   [type="password"]{
+    border: none;
+    border-bottom: 1px solid rgb(0, 0, 0);
+    background: transparent;
+    outline: none;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+  }
+  
+  .login-box input[type="submit"]{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #1097b9;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    border-radius: 20px;
+  }
+  
+  .login-box input[type="submit"]:hover{
+    cursor: pointer;
+    background: #0640e0;
+    color: #000;
+  }
+  
+  .login-box a {
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: rgb(0, 0, 0);
+    position: center;
+    padding-left: 10px;
+    font-weight: 100px;
+  }
+  
+  .login-box a:hover {
+    color: rgb(253, 2, 2);
+  }
+
+  .login-box h2{
+    padding: 10px;
+    text-align: center;
+    font-size: 15px;
+
+
+  }
+  .boton-personalizado {
+    text-decoration:none;
+    text-align: calc(50%-50%);
+    font-weight:1000;
+    font-size:400px;
+    border-radius: 30px;
+    color:#ffffff;
+    padding-top:15px;
+    padding-bottom:15px;
+    padding-left:150px;
+    padding-right:150px;
+    background-color:#12abd1;
+    position: center;
+    }

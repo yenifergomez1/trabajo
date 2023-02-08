@@ -1,0 +1,77 @@
+body{
+  position: center;
+  background-color: rgb(6, 165, 228);
+ top:50%;
+ left:50%;
+
+}
+
+.bienvenidos-box .avatar {
+  width: 200px;
+  height: 200px;
+  border-radius: 500px;
+  position: center;
+}
+ .bienvenidos-box h1{
+ font-family: Georgia, 'Times New Roman', Times, serif;
+  color: rgb(255, 255, 255);
+  position: center;
+  font: weight;
+  top: 50%;
+    left: 50%;
+    font-size: 30px;
+
+
+ }
+
+ .bienvenidos-box h2{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: rgb(255, 255, 255);
+  position: center;
+  font: weight;
+  top: 50%;
+  left: 50%;
+  font-size: 25px;
+ }
+
+ .bienvenidos-box {
+  background: rgb(76, 187, 231);
+  width: 300px;
+  height: 620px;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+ }
+ .bienvenidos-box h3{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: rgb(255, 255, 255);
+  position: center;
+  font: weight;
+ }
+
+ .bienvenidos-box a {
+  border: 1px solid #8f99a8;
+  position: center;
+  top: 150px;
+  left: 200px;
+  width: 50px;
+  height: 100px; /*anchura, estilo y color borde*/
+ padding: 10px; /*espacio alrededor texto*/
+ background-color: #4856a5d5; /*color botón*/
+ color: #000000; /*color texto*/
+ text-decoration: none; /*decoración texto*/
+ 
+ font-family: 'Helvetica', sans-serif; /*tipografía texto*/
+ border-radius: 30px; /*bordes redondos*/
+ 
+ }
+ .bienvenidos-box a:hover {
+  color: rgb(253, 2, 2);
+  background: #e00606;
+  color: #000;
+}
+    
+  

@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+body {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 63px;
+    background: #05789b;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+
+.logo a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.nav-enlace{
+    display: inline-block;
+    background-color: #05789b;
+    color: #ffffff;
+    padding: 23px 30px;
+   
+  }
+  .nav-enlace:hover{
+      background-color: rgb(35, 223, 236);
+  }
+  nav{
+      background-color:#05789b;
+  }  
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+}
+
+.title {
+    margin-bottom: 20px;
+    font-size: 40px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: rgb(187, 0, 0);
+}
+
+p {
+    margin-bottom: 40px;
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    padding: 0 150px;
+}
+
+.content {
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sau {
+    padding: 100px;
+    background: #0fdada;
+    
+}
+
+
+
+
+.img {
+    height: 600px;
+    width: 510px;
+    line-height: 90px;
+    left: 40px;
+    margin: 5px;
+}
+
+
+
+.about {
+    background: #fffafa;
+    padding: 50px 0;
+}
+
+.box-container2{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    flex-wrap: wrap;
+}
+
+.box-container2 .box {
+    width: 250px;
+    padding-bottom: 20px;
+    text-align: center;
+    box-shadow: 0 5px 5px rgba(238, 1, 1, 0.3);
+    background: #63d1ec;
+    margin: 20px 20px;
+}
+
+.box-container2 .box img {
+    height: 70px;
+    width: 70px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-top: -50px;
+    border: 6px solid #000000;
+}
+
+.box-container2 .box h3 {
+    font-size: 20px;
+    color: #000000;
+    padding-top: 10px;
+}
+
+.box-container2 .box p {
+
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    padding: 0;
+}
+
+.box-container2 .box .stars i {
+    font-size: 15px;
+    color: #d0ff00;
+}
+
+.contact {
+    padding: 50px 0;
+    background: #fffefe;
+}
+
+
+.footer-section{
+    display: flex;
+
+}
+
+
